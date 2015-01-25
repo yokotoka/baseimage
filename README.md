@@ -5,7 +5,7 @@ The SSH daemon is explicitly disabled and a rudimentary cleanup performed, so im
 If a container is started from this image, it will run a *bash* under the *my_init* process. It is available on the
 Docker registry, as [th4t/baseimage](https://registry.hub.docker.com/u/th4t/baseimage/).
 
-This image is created for the blog post [A server with Docker, part 5.1: Towards a simple web app container](http://blog.th4t.net/a-server-with-docker-part-5-1-towards-a-simple-webapp-container.html), whith the goal to use it as the base for a single service-oriented container, harboring a simple Python web application.
+This image is created for the blog post [A server with Docker, part 5.1: Towards a simple web app container](http://blog.th4t.net/a-server-with-docker-part-5-1-towards-a-simple-webapp-container.html), with the goal to use it as the base for a single service-oriented container, harboring a simple Python web application.
 
 ##License: MIT
 Copyright (c) 2015 Vladislav Supalov
