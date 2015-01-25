@@ -5,7 +5,7 @@ ENV REFRESHED_AT 2015-01-25
 
 # set correct environment variables
 ENV HOME /root
-# disable SSH
+# disable SSH, this is not really necessary in the newest baseimage anymore
 RUN rm -rf /etc/service/sshd /etc/my_init.d/00_regen_ssh_host_keys.sh
 
 # clean up APT when done
