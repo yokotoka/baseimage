@@ -1,7 +1,6 @@
 #th4t/baseimage
 
-A personalized Docker baseimage, deriving [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker).
-The SSH daemon is explicitly disabled and a rudimentary cleanup performed, so images that build on this are forced to update.
+A personalized Docker baseimage, deriving [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker). The SSH daemon is explicitly disabled.
 If a container is started from this image, it will run a *bash* under the *my_init* process. It is available on the
 Docker registry, as [th4t/baseimage](https://registry.hub.docker.com/u/th4t/baseimage/).
 
