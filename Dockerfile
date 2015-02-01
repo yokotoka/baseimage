@@ -1,6 +1,6 @@
 # based on https://github.com/phusion/baseimage-docker
 FROM phusion/baseimage:0.9.16
-MAINTAINER th4t
+MAINTAINER Vladislav Supalov <mail@th4t.net>
 ENV REFRESHED_AT 2015-01-25
 
 # set correct environment variables
